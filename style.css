@@ -1,0 +1,75 @@
+.page {
+    width: 50%;
+    background-color: #eee;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.page h2 {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+@media(max-width: 767px){
+    .page h2{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+}
+
+.page .inputs-parent {
+    display: flex;
+    gap: 5px;
+}
+
+@media(max-width: 767px) {
+    .page .inputs-parent {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.page .inputs-parent input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.page .inputs-parent input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #573800;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.page .repos-content .info-container {
+    padding: 10px;
+}
+@media(max-width: 340px){
+    .page .repos-content .info-container{
+        flex-direction: column;
+    }
+}
+.page .repos-content>div {
+    padding: 10px 0 0;
+    background-color: white;
+    margin: 20px 0 0;
+    display: block;
+}
+
+.page .repos-content h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.page .repos-content a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.445);
+    color: white;
+
+}
