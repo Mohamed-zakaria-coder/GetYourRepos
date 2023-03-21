@@ -49,9 +49,13 @@
 .page .repos-content .info-container {
     padding: 10px;
 }
-@media(max-width: 340px){
+@media(max-width: 500px){
     .page .repos-content .info-container{
         flex-direction: column;
+    }
+    .page a{
+        width: 100%;
+        text-align: center;
     }
 }
 .page .repos-content>div {
@@ -71,5 +75,4 @@
     padding: 5px;
     background-color: rgba(0, 0, 255, 0.445);
     color: white;
-
 }
